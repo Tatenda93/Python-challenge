@@ -55,12 +55,3 @@ print(f"Average Change: ${average_change:.2f}")
 print(f"Greatest Increase in Profits: {greatest_increase_date} (${greatest_increase})")
 print(f"Greatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})")
 
-# Save the results to a text file
-with open(file_to_output, mode='w') as output_file:
-    output_file.write("Financial Analysis\n")
-    output_file.write("----------------------------\n")
-    output_file.write(f"Total Months: {total_months}\n")
-    output_file.write(f"Total: ${total_profit_loss}\n")
-    output_file.write(f"Average Change: ${average_change:.2f}\n")
-    output_file.write(f"Greatest Increase in Profits: {greatest_increase_date} (${greatest_increase})\n")
-    output_file.write(f"Greatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})\n")
